@@ -21,7 +21,7 @@ lock = threading.Lock()
 
 captured_image_path = None  # Variable to store the path of the captured image
 
-
+result_text=""
 # Function to generate video frames with face recognition
 def generate():
     while True:
